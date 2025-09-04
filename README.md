@@ -104,4 +104,21 @@ This MCP server provides the following tools:
    - "What are Apple's recent income statements?"
    - "Show me the current price of Tesla stock"
    - "Get historical prices for MSFT from 2024-01-01 to 2024-12-31"
+
+
 # financial_data_mcp
+   ```bash
+
+   # Set API key in .env
+   FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
+   MCP_API_KEY=your-secure-api-key-here
+
+   ```
+
+# Run the server:
+   ```bash
+
+   nohup python financial_data_mcp/server_remote.py &
+   
+   ```
+
