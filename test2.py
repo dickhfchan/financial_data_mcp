@@ -1,6 +1,6 @@
 from starlette.applications import Starlette
 from starlette.routing import Mount, Host
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 
 
 mcp = FastMCP("My App")

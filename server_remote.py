@@ -5,7 +5,7 @@ import logging
 import sys
 from fastapi import FastAPI, Request, Security, Depends
 from fastapi.security.api_key import APIKeyHeader, APIKey
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 from dotenv import load_dotenv
 from starlette.status import HTTP_403_FORBIDDEN
 from starlette.responses import JSONResponse
